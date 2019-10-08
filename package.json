@@ -1,0 +1,48 @@
+{
+  "name": "quill-image-resize-vue",
+  "version": "1.0.4",
+  "description": "'quill-image-resize-module's Fixed Version in Vue'",
+  "main": "image-resize-vue.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack -p --progress --colors",
+    "dev": "webpack --progress --colors --watch",
+    "lint": "eslint --ext js,es6 src",
+    "fixlint": "eslint --fix --ext js,es6 src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/baiseng/quill-image-resize-vue.git"
+  },
+  "keywords": [
+    "quill-image-resize-vue",
+    "quill",
+    "vue",
+    "image"
+  ],
+  "author": "swmonk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baiseng/quill-image-resize-vue/issues"
+  },
+  "homepage": "https://github.com/baiseng/quill-image-resize-vue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "quill": "^1.2.2",
+    "raw-loader": "^0.5.1"
+  }
+}
